@@ -1,0 +1,38 @@
+/* ----------STYLE GENERAL---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----------HEADER---------- */
+header {
+  background-color: red;
+}
+
+h2,
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style: none;
+  justify-content: space-around;
+
+}
+header li {
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+header a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  border: white 1px solid;
+  text-align: center;
+}
