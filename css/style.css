@@ -36,3 +36,33 @@ header a {
   border: white 1px solid;
   text-align: center;
 }
+
+/* ----------SECTION---------- */
+#jaune {
+  flex: 1;
+  background-color: yellow;
+}
+
+#violet {
+  flex: 1;
+  background-color: violet;
+}
+
+main {
+  height: 660px;
+  display: flex;
+  flex-direction: row;
+
+}
+section {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  background-color: rgb(57, 121, 238);
+  justify-content: center;
+}
+
+section p {
+  padding: 15px 25px;
+
+}
