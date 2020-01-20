@@ -1,73 +1,81 @@
-/* ----------STYLE GENERAL---------- */
-* {
-    margin: 0;
-    padding: 0;
+
+/*----------STYLE GENERAL----------*/
+
+body {
+    margin: 0 auto;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
+
 /* ----------HEADER---------- */
-header {
-    background-color: red;
-}
 
-h2,
-header h1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-
-}
-header ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
-    justify-content: space-around;
-
-}
-header li {
-    margin-bottom: 15px;
-    flex: 1;
-}
-
-header a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    border: white 1px solid;
+h1 {
     text-align: center;
 }
 
-/* ----------SECTION---------- */
-#jaune {
+p {
+    flex: 1 0 200px;
+    padding-left: 10px;
+}
+
+header {
+    background: red;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: stretch;
+
+}
+
+li {
     flex: 1;
-    background-color: yellow;
+    border: 2px solid white;
+
+}
+
+a {
+    text-decoration: none;
+    color: BLACK;
+}
+
+/* ----------SECTION---------- */
+article {
+    flex: 2;
+    display: flex;
+    justify-content: justify;
+}
+
+section {
+    height: 660px;
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+}
+
+#jaune {
+    padding-left: 10px;
+    flex: 1;
+    background: yellow;
 }
 
 #violet {
+    padding-left: 10px;
+    background: rgb(133, 4, 105);
     flex: 1;
-    background-color: violet;
-}
-
-main {
-    height: 660px;
-    display: flex;
-    flex-direction: row;
-
-}
-section {
-    display: flex;
-    flex: 3;
-    flex-direction: row;
-    background-color: rgb(57, 121, 238);
-    justify-content: center;
-}
-
-section p {
-    padding: 15px 25px;
 }
 /* ----------FOOTER---------- */
 footer {
-    display: flex;
-    justify-content: center;
-    background-color: green;
+    background: green;
+    text-align: center;
 }
